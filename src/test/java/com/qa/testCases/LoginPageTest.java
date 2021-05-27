@@ -2,6 +2,7 @@ package com.qa.testCases;
 
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,10 +18,12 @@ public class LoginPageTest extends Base {
 	LandingPage landingPage;
 	LoginPage lp;
 	HomePage hp;
+	Logger log = Logger.getLogger(LoginPageTest.class);
 	
 	public LoginPageTest()
 	{
 		super();
+		log.warn("********************Hey thisis just a warning******************");
 	}
 	
 	@BeforeMethod
