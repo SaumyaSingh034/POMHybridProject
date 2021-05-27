@@ -1,0 +1,10 @@
+com\qa\pages\LoginPage.class
+com\qa\utilities\WebListeners.class
+com\qa\pages\DealPage.class
+com\qa\pages\HomePage.class
+com\qa\utilities\TimeUtils.class
+com\qa\base\Base.class
+com\qa\pages\SignUpPage.class
+com\qa\pages\ContactPage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\qa\pages\LandingPage.class
